@@ -10,7 +10,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -54,7 +54,6 @@
   z-index: 3;
   font-size: 18px;
   line-height: 25px;
-  
 }
 
 .header__link {
@@ -189,7 +188,6 @@
   text-align: center;
   position: relative;
   z-index: 2;
-
 }
 
 .feynman__subtitle {
@@ -201,7 +199,6 @@
   width: 648px;
   z-index: 2;
   position: relative;
- 
 }
 
 .feynman__link {
@@ -214,7 +211,6 @@
   top: 50%;
   right: 48px;
   z-index: 2;
-
 }
 
 .feynman__image {
@@ -224,4 +220,46 @@
   bottom: 0;
   left: 0;
   z-index: 1;
+}
+
+.kaufman {
+  position: relative;
+  background-color: #1f1f1f;
+  overflow: hidden;
+  padding: 90px 0;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+.table_theme_dark {
+
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  margin-top: 80px;
+  z-index: 1;
+}
+
+.table__heading_theme_dark {
+  color: white;
+}
+
+.table__text_theme_dark {
+  color: white;
+}
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  right: -210px;
+  top: 0;
+  
 }
