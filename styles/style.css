@@ -9,23 +9,111 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 100px auto;
+}
+
+.two-columns__brief {
+  margin: 0;
+  width: 175px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 784px;
+  width: 80%;
+}
+
+.two-columns__paragraph {
+  margin: 0 0 30px 0;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.two-columns__paragraph_no-bottom-margin {
+  margin-bottom: 0;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .header {
   height: 100vh;
+  background-color: #f2f2f2;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.logo {
+  z-index: 3;
+}
+
+.logo_place_header {
+  background-image: url(../images/logo_place_header.svg);
+  background-size: cover;
+  position: absolute;
+  left: 64px;
+  top: 30px;
+  width: 183px;
+  height: 32px;
+}
+
+.header__title {
+  font-size: 102px;
+  font-weight: bold;
+  width: 730px;
+  margin-left: 64px;
+  line-height: 96px;
+  z-index: 3;
+}
+
+.header__subtitle {
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  width: 388px;
+  z-index: 3;
+  font-size: 18px;
+  line-height: 25px;
+  
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__main-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  width: 765px;
+  height: 608px;
+  z-index: 2;
+}
+
 .header__square-pic {
-  height: 568px;
+  position: absolute;
   width: 568px;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  height: 568px;
+  right: 0;
+  top: 64px;
+  background-color: #2f80ed;
+  z-index: 1;
 }
