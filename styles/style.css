@@ -261,5 +261,31 @@
   position: absolute;
   right: -210px;
   top: 0;
-  
+}
+
+.footer {
+  background-color: black;
+  min-height: 350px;
+}
+
+.footer__columns {
+  display: flex;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-link {
+  color: white;
+}
+
+.footer__column-heading {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.footer__author {
+  color: white;
 }
