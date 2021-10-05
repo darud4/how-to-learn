@@ -178,14 +178,14 @@
 
 .table__heading {
   line-height: 1.15;
-  font-weight: 24px;
+  font-size: 24px;
   font-weight: bold;
   margin: 0;
 }
 
 .table__text {
   line-height: 1.2;
-  font-weight: 18px;
+  font-size: 18px;
   font-weight: normal;
   margin: 20px 0 0 0;
 }
@@ -284,13 +284,16 @@
 .footer {
   background-color: #1f1f1f;
   min-height: 350px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
   width: 90%;
-  margin: 60px auto 40px;
+  margin: 0 auto;
   min-height: 250px;
 }
 
