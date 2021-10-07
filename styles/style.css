@@ -317,7 +317,8 @@
 
 .footer__column-heading {
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 0 0 20px 0;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
