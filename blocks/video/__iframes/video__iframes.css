@@ -1,0 +1,6 @@
+.video__iframes {
+  display: flex;
+  width: 1050px;
+  margin: 50px auto -50px;
+  justify-content: space-between;
+}
