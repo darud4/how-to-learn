@@ -1,8 +1,8 @@
-@keyframes opacity-link {
-  from {opacity: 1;}
-  to {opacity: .52;}
+.fade-on-hover {
+  opacity: 1;
+  transition: opacity 1s linear;
 }
 
 .fade-on-hover:hover {
-   animation: opacity-link 1 1s linear forwards;
+  opacity: .52;
 }
