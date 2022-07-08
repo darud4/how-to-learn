@@ -5,4 +5,4 @@
 - анимации
 - понимание методологии именования классов и файлов БЭМ
 
-[Посмотреть на проект можно здесь](https://vercel.com/darud4/how-to-learn/4Z6fLTpKtLZSbdftC5iNF1sqzFLt)
+[Посмотреть на проект можно здесь](https://how-to-learn-zeta.vercel.app/)
